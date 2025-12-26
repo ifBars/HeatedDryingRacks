@@ -197,8 +197,6 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <Compile Include="Core.cs" />
-	  <!-- Dynamically include files from standard directories -->
-	  <Compile Include="Integrations\**\*.cs" />
 	  <Compile Include="Patches\**\*.cs" />
 	  <Compile Include="Utils\**\*.cs" />
 	</ItemGroup>
